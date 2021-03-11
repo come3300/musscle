@@ -45,58 +45,58 @@ q:before, q:after {
   content:none;
 }
 
-a {
-  margin:0;
-  padding:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+header{
+background-color:rgb(252, 117, 117);
+width: 100%;
+ text-align: center;
+ color: white;
+  font-weight: bold;
+  font-size:20px;
 }
 
-/* change colours to suit your needs */
-ins {
-  background-color:#ff9;
-  color:#000;
-  text-decoration:none;
+.navbar-nav{
+ padding: 10px;
 }
 
-/* change colours to suit your needs */
-mark {
-  background-color:#ff9;
-  color:#000;
-  font-style:italic;
-  font-weight:bold;
+.col-md-8 col-md-offset-2{
+  margin: 20px;
 }
 
-del {
-  text-decoration: line-through;
+.allblog{
+  color: white;
+  font-weight: bold;
+  font-size:30px;
+  
+
 }
 
-abbr[title], dfn[title] {
-  border-bottom:1px dotted;
-  cursor:help;
+th{
+   padding: 10px;
+}
+.graytable{
+  margin: 20px;
+}
+.gray{
+  background-color: rgb(211, 211, 211);
+  padding-top: 20px;
 }
 
-table {
-  border-collapse:collapse;
-  border-spacing:0;
+h2{
+  font-size:30px;
 }
 
-/* change border colour to suit your needs */
-hr {
-  display:block;
-  height:1px;
-  border:0;
-  border-top:1px solid #cccccc;
-  margin:1em 0;
-  padding:0;
+footer{
+  background-color:rgb(252, 117, 117);
+  width: 100%;
+ text-align: center;
+ padding: 30px 0;
+ position: absolute;
+ bottom: 0; 
+
 }
 
-input, select {
-  vertical-align:middle;
-}
-
-.title1
-{
-  font-size: 100px;
+.text-light{
+  color: white;
+  font-weight: bold;
+  font-size:40px;
 }

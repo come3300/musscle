@@ -15,7 +15,7 @@ class MusscleController extends Controller
     
     
     
-    public function showlist()
+    public function showList()
     {
          return view ('musscle.list');
     }

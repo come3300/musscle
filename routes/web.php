@@ -1,7 +1,8 @@
 <?php
 
-use App\Models\Models\Musscle;
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MusscleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MusscleControle@showlist');
+Route::get('/', [MusscleController::class, 'showList'])->name('Mussles');
